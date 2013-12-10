@@ -1,0 +1,212 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+body {
+/*	font-family: 'Baskerville','HoeflerText-Regular','HiraKakuPro-W3', 'LucidaGrande';*/
+	font-family: 'HoeflerText-Regular','HiraKakuPro-W3', 'LucidaGrande';
+	line-height: 1.5em;
+}
+
+i, em, .nh {
+/*font-family: 'Baskerville-Italic','HoeflerText-Italic';*/
+font-family: 'HoeflerText-Italic';
+}
+
+b, strong {
+/*font-family: 'Baskerville-SemiBold','HoeflerText-Black';*/
+font-family: 'HoeflerText-Black';
+}
+
+.kif {
+/*	font-family: 'Baskerville-SemiBold','HoeflerText-Black';*/
+	font-family: 'HoeflerText-Black';
+}
+
+.alak {
+/*	font-family: 'Baskerville-SemiBold','HoeflerText-Black';*/
+	font-family: 'HoeflerText-Black';
+	
+}
+
+b i, strong em {
+/*font-family: 'Baskerville-SemiBoldItalic','HoeflerText-BlackItalic';*/
+font-family: 'HoeflerText-BlackItalic';
+
+}
+
+/*joszt blokk I II III IV stb*/
+ol.joszt {
+	/*list-style-type: upper-roman;*/
+	list-style-type: none;
+	margin-left: 0;
+	margin-top: 0;
+	padding-left: 0;
+	padding-top: 0;
+    border-top-width: 0;
+    margin-bottom: 0;
+    border-bottom-width: 0;
+    padding-bottom: 0;
+}
+
+ol.joszt li {
+	margin-bottom: 1em;
+}
+
+/*jvalt blokk 1 2 3 4 stb*/
+ol.jvalt {
+	list-style-type: decimal;
+	margin-left: 0;
+	padding-left: 1.7em;
+	    margin-top: 0;
+    border-top-width: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    border-bottom-width: 0;
+    padding-bottom: 0;
+}
+
+ol.jvalt li {
+	margin-bottom: 0;
+}
+
+.kisfont {
+	font-size : 70%;
+	font-weight : normal;
+}
+
+.nagyfont {
+	font-size : 150%;
+	font-weight : normal;
+
+}
+
+.cimoldal {
+
+}
+
+.cimoldal h1 {
+	text-align: right;
+	font-family: 'HoeflerText-Black';
+	font-size: 300%;
+	line-height: 1.2em;
+	color: #555555;
+	border-bottom: 2px solid #BBBBBB;
+	letter-spacing: 0.03em;
+	margin-bottom: 0;
+	padding-bottom: 12px;
+}
+
+.cimoldal h2 {
+	text-align: right;
+	font-weight: normal;
+	font-family: 'HoeflerText-Regular';
+	text-transform: lowercase;
+	font-variant:small-caps;
+	color: #555555;
+	margin-top: 0;
+	padding-top: 18px;
+	margin-bottom: 80px;
+}
+
+.cimoldal ol {
+	line-height:2em;
+	font-size: 110%;
+}
+
+.cimoldal a {
+	color: black;
+	padding: 4px 3px 1px 3px;
+	text-decoration: none;
+}
+
+.cimoldal a:link {color: black;} 
+.cimoldal a:hover {
+	color: white;
+	background-color: black;
+} 
+.cimoldal a:active {
+	color: white;
+	background-color: black;
+} 
+
+.jarulekos {
+	font-family: 'HoeflerText-Regular';
+}
+
+.jarulekos h1 {
+	font-size: 200%;
+	font-weight: normal;
+	font-family:'HoeflerText-Black';
+	letter-spacing: 0.03em;
+	margin-bottom: 2em;
+	line-height: 1.2em;
+	color: #555555;
+}
+
+.jarulekos h2 {
+	font-size: 150%;
+	font-weight: normal;
+	font-family:'HoeflerText-Black';
+	line-height: 1.3em;
+	color: #555555;
+	margin-bottom:1em;
+	margin-top: 2em;
+}
+
+
+/*.entry {
+font-family:'HelveticaNeue';
+font-family:'HoeflerText-Regular','HiraKakuPro-W3', 'LucidaGrande';
+font-family:'HoeflerText-Regular','HiraMinPro-W3', 'LucidaGrande';
+font-family:'HoeflerText-Regular','HiraMinPro-W3', 'LucidaGrande';
+line-height: 1.5em;
+}*/
+
+
+
+h1	{
+	font-size: 150%;
+	font-weight: normal;
+	font-family:'HoeflerText-Regular';
+}
+
+h2	{
+	font-size: 120%;
+	font-family:'HoeflerText-Regular';
+	font-weight: normal;
+	text-transform: lowercase;
+	font-variant:small-caps;
+	margin-bottom:0.25em;
+	letter-spacing: 0.1em;
+	
+}
+
+.sc	{
+	font-size: 120%;
+	text-transform: lowercase;
+	font-variant:small-caps;
+	letter-spacing: 0.1em;	
+}
+
+table {
+	margin: 1em 0 1em 0;
+	border: 1px solid gray;
+/*	font-family: 'HelveticaNeue';*/
+	padding: 0.2em;
+	border-spacing: 0.25em;
+	width: 98%;
+}
+
+th {
+	font-size: 100%;
+	letter-spacing: 0.11em;
+	text-transform: lowercase;
+	font-variant:small-caps;
+	background-color: gray;
+	/*color: #F4FAFA;*/
+	color: white;
+}
+
+td {
+	text-align:center;
+}
