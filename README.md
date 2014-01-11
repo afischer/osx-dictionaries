@@ -1,4 +1,4 @@
-OS X Dictionaries [![GAnalytics, DONT REMOVE ](https://ga-beacon.appspot.com/UA-6208376-3/osx-dictionaries/readme)](https://github.com/igrigorik/ga-beacon)
+# OS X Dictionaries [![GAnalytics, DONT REMOVE ](https://ga-beacon.appspot.com/UA-6208376-3/osx-dictionaries/)](https://github.com/igrigorik/ga-beacon)
 
 ================
 
