@@ -9,28 +9,28 @@ Dictionaries should be labeled using the ISO standard. Most should be labeled us
 
 Please [report](#reporting-errors-and-broken-dictionaries) any dictionaries breaking the standards.
 
-## Instalation
+## Installation
 Installing dictionaries is relatively painless.
 
 #### < 10.8.1 Install
-*Note: I do not reccomend this instalation, and highly reccomend using the pre 10.8.0 method below.*
+*Note: I do not recommend this installation method. Consider using the pre-10.8.0 method below instead.*
 
 
 Open Dictionary.app. Click `File`, then `Open Dictionaries Folder`. Simply drag-'n-drop your `xxx.dictionary` file into the folder, restart Dictionary.app, activate the dictionary in Dictionary's Preferences, and you should be good to go.
 
 ![Open Dicts](http://i.imgur.com/AGjisDj.png)
 
-*Note that this will* ***only install the dictionary for the current user.*** *If you wish to install for all users, follow the pre 10.8 instructions.*
+*Note that this will* ***only install the dictionary for the current user.*** *If you wish to install for all users, follow the pre-10.8.0 instructions below.*
 
 
-#### > 10.8.0 / Full System / Problem Install
-Open a finder window. Navigate to `/Libaray/Dictionaries/` (if your Library folder is hidden, simply press `⌘⇧G` on your keyboard, and navigate using the Go-To window. Then put your `xxx.dictionary` file inside, restart the Dictionary.app, and follow activate the dictionary in Dictionary's Preferences. The file should then show up in the tab bar.
+#### < 10.8.0 / Full System / Problem Install
+Open a Finder window. Navigate to `/Library/Dictionaries/` (if your Library folder is hidden, simply press `⌘⇧G` on your keyboard, and navigate using the Go-To window. Then put your `xxx.dictionary` file inside, restart the Dictionary.app, and  activate the dictionary in Dictionary's Preferences. The file should then show up in the tab bar.
 
 ![More Dictionaries!](http://i.imgur.com/FLCYZ8T.png)
 
 
 #### Editing Labels
-You can edit labels by simply right-clicking on the tab, and clicking "edit label".
+You can edit labels by simply right-clicking on the tab, and clicking "Edit Label".
 
 ![Edit Label](http://i.imgur.com/AGUS405.png)
 
@@ -44,16 +44,16 @@ There are two ways to contribute. Just got one dictionary to add? [Email it to m
 Otherwise:
 
 1.  Fork this repo 
-2.  Add any dictionaries, keeping to the orginizational conventions
+2.  Add any dictionaries, keeping to the organizational conventions
 3.  Commit your changes. `git commit -am 'Added some feature'`
 4.  Push to the branch `git push origin my-new-feature`
-5.  Create new Pull Request (should be prompted to do so.
+5.  Create a new Pull Request (you should be prompted to do so.)
 
 
 ## Creating Dictionaries
 Apple has a nice outline of [how to create dictionaries](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/DictionaryServicesProgGuide/Introduction/Introduction.html) on their website. 
 
 ## License & Notes
-ALl dictionaries in this repo are under the [Apache Licence, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). 
+All dictionaries in this repo are under the [Apache Licence, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). 
 
-Big Thanks to [calasqm](http://mysite.mweb.co.za/residents/clasqm/mac-os-x-dictionaries/) for listing many of the dictionaries, and The Internet Archive's [wayback machine](http://archive.org/web/) for allowing me to access many files that had disapeared from the web.
+Big Thanks to [calasqm](http://mysite.mweb.co.za/residents/clasqm/mac-os-x-dictionaries/) for listing many of the dictionaries, and The Internet Archive's [wayback machine](http://archive.org/web/) for allowing me to access many files that had disappeared from the web.
